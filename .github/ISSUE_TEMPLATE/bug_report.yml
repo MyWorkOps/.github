@@ -1,0 +1,36 @@
+name: Bug report
+description: Report a defect in a MyWorkOps automation repository
+title: "[Bug]: "
+labels: ["type:bug", "status:ready"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use private channels for credentials, customer data, raw dumps, or sensitive operational details.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what workflow is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Sanitized logs, screenshots, or command output.
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

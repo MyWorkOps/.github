@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive data or security concern
+    url: https://github.com/MyWorkOps
+    about: Use private professional channels. Do not disclose secrets or customer data in public issues.

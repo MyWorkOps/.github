@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose a new capability or workflow improvement
+title: "[Feature]: "
+labels: ["type:feature", "status:ready"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What operational or delivery problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the desired behavior or workflow.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - DevOps
+        - Data policy
+        - Packaging
+        - Automation engine
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Acceptance criteria
+      description: How will we know this is done?
+    validations:
+      required: true
