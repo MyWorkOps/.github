@@ -1,0 +1,24 @@
+# OS/IDE
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+.idea/
+
+# Runtime/sensitive
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.cer
+secrets.*
+credentials.*
+
+# Build/cache
+build/
+dist/
+cache/
+__pycache__/
+*.pyc
