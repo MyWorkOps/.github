@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="../assets/myworkops-brand-card.svg" alt="MyWorkOps - Private Work Automation, DevOps Delivery, Professional Tooling" width="100%" />
+
 # MyWorkOps
 
 **Private Work Automation | DevOps Delivery | Network Operations Tooling**
@@ -14,6 +16,16 @@ Professional automation workspace led by **Helton Trindade** for internal work s
 </div>
 
 ---
+
+## Executive Signal
+
+| Capability | Operating Standard |
+| --- | --- |
+| **Ownership** | Single accountable owner: Helton Trindade, acting as Product Owner, DevOps, and Automation Engineer. |
+| **Governance** | Private-first repositories, CODEOWNERS, protected branches, release discipline, and traceable delivery logs. |
+| **Delivery Model** | Template-driven automation projects with repeatable CI/CD, packaging, documentation, and security posture. |
+| **Data Boundary** | Source code and governance are versioned; sensitive operational data stays outside Git. |
+| **Commercial Boundary** | Work automation remains in MyWorkOps; commercial products and external client assets belong in MalanzaOps. |
 
 ## Operating Identity
 
